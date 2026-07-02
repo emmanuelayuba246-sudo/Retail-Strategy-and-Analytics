@@ -86,3 +86,76 @@ Open `QVI_category_analysis.ipynb` in Jupyter Notebook or JupyterLab and run all
 ## Recommendation
 
 Prioritise **Families** (Older and Young) for targeted marketing, promoting value-oriented, everyday snack brands that already align with their purchasing behaviour. Treat **Young Singles/Couples** as a high-volume but lower-value segment, better suited to lower-cost engagement (e.g. loyalty app promotions) than premium campaign investment.
+
+# Trial Store Performance Assessment Report
+This report evaluates the performance of the trial stores by comparing each trial location
+with a carefully selected control store. The objective is to determine whether the in-store trial
+had a measurable impact on sales performance during the trial period and to provide
+evidence-based recommendations for future implementation.
+
+## Methodology
+
+To ensure a fair comparison, a suitable control store was identified for each trial store using
+historical pre-trial performance. Control stores were selected based on the following criteria:
+Similarity in monthly sales trends, measured using the Pearson correlation coefficient.
+Similarity in sales magnitude, measured using Euclidean distance.
+
+A combined similarity score derived from both correlation and magnitude similarity to
+identify the most appropriate control store.
+Once the control stores were selected, their sales were scaled to match the pre-trial
+performance of the corresponding trial stores. This adjustment ensured that any observed
+differences during the trial period reflected the impact of the trial rather than underlying
+differences in store size or historical performance.
+The effectiveness of each trial was assessed by:
+Comparing monthly sales between the trial and scaled control stores.
+Calculating percentage uplift during the trial period.
+Measuring normal pre-trial variation using the standard deviation of historical
+differences.
+Assessing statistical significance to determine whether observed changes exceeded
+normal business variation.
+
+## Results
+
+**Trial Store 77**
+Selected Control Store: Store 233
+Insert monthly sales comparison chart here.
+7/2/26, 6:22 PM Untitled
+file:///C:/Users/USER/Downloads/Untitled.html 1/20
+The pre-trial analysis identified Store 233 as the most appropriate control store due to its
+high similarity in both sales pattern and sales magnitude. During the trial period, Store 77
+recorded substantial improvements in sales, particularly in March and April 2019. Statistical
+analysis indicated that these increases exceeded normal pre-trial variation, suggesting that
+the trial had a positive and statistically significant impact on store performance.
+## Recommendation
+The trial at Store 77 was successful. Consider extending similar initiatives
+to comparable stores.
+
+**Trial Store 86**
+Selected Control Store: Store 155
+Insert monthly sales comparison chart here.
+Store 155 was selected as the control store based on the highest combined similarity score.
+The performance of Store 86 was evaluated by comparing its trial-period sales with the
+scaled control store and assessing whether any observed uplift was statistically significant.
+## Recommendation
+Based on the analysis results, determine whether the trial delivered a
+significant improvement in performance and recommend continuation or further
+investigation accordingly.
+
+**Trial Store 88**
+Selected Control Store: Store 125
+Insert monthly sales comparison chart here.
+Store 125 was identified as the best available control store for Store 88. Although it provided
+the highest combined similarity score, the similarity was lower than that observed for the
+other trial stores. Consequently, the findings for Store 88 should be interpreted with
+appropriate caution while assessing the effectiveness of the trial.
+## Recommendation
+Base the recommendation on the observed trial performance while
+acknowledging the relatively lower similarity between the trial and control stores.
+
+# Overall Conclusion
+The analysis compared each trial store with a carefully selected control store using historical
+sales performance. Statistical testing was used to distinguish genuine trial effects from
+normal business variation. The findings provide evidence-based recommendations regarding
+the effectiveness of the trial at each location and support informed decision-making on
+whether the initiative should be expanded to additional stores.
+
